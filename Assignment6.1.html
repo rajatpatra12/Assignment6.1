@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+</head>
+<body>
+	<h1> validating the salary of an employee if it is greater than equal to 15000 then employee should recieve 10% bonus added in the basic salary if not he should be added 5%bonus in basic_salary.Let print the answer in the console.</h1>
+
+	  <script>
+
+         var basic_salary=Number(prompt("enter the basic_salary"));
+           if(basic_salary>=15000)
+           {
+           	 var bonus=basic_salary*0.1;
+           	  basic_salary=bonus+basic_salary;
+           	  alert("The basic_salary with added bonus is " +basic_salary);
+           }
+
+           else
+           {
+           	bonus=basic_salary*0.05;
+           	  basic_salary=bonus+basic_salary;
+
+           	  alert("The basic_salary with added bonus is " +basic_salary);
+           }
+
+           console.log("The basic_salary with added bonus is " +basic_salary);
+	  </script>
+</body>
+</html>
